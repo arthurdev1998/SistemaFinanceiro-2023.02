@@ -4,14 +4,14 @@
     "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\WebApi\\WebApi.csproj",
-        "projectName": "WebApi",
-        "projectPath": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\ArthurMendesGomesdaS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ArthurMendesGomesdaS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,13 +40,291 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[7.0.12, )"
             },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\ArthurMendesGomesdaS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ArthurMendesGomesdaS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
               "version": "[7.0.12, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Infra\\Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Infra\\Infra.csproj",
+        "projectName": "Infra",
+        "projectPath": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Infra\\Infra.csproj",
+        "packagesPath": "C:\\Users\\ArthurMendesGomesdaS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ArthurMendesGomesdaS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\WebApi\\WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\WebApi\\WebApi.csproj",
+        "projectName": "WebApi",
+        "projectPath": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\ArthurMendesGomesdaS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ArthurMendesGomesdaS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Infra\\Infra.csproj": {
+                "projectPath": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Infra\\Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
             }
           },
           "imports": [
