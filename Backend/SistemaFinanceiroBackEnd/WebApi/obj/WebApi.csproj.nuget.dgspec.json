@@ -27,7 +27,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

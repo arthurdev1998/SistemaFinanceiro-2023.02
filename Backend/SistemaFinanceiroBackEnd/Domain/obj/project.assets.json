@@ -1314,6 +1314,23 @@
             "rid": "win"
           }
         }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.3",
+          "Microsoft.AspNetCore.Identity.UI": "7.0.12",
+          "Microsoft.AspNetCore.OpenApi": "7.0.3",
+          "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
       }
     }
   },
@@ -3922,10 +3939,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Entities >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.3",
       "Microsoft.AspNetCore.Identity.UI >= 7.0.12",
       "Microsoft.AspNetCore.OpenApi >= 7.0.3",
@@ -3960,7 +3983,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\ArthurMendesGomesdaS\\Desktop\\Projetos de Estudo\\ProjetoSistemaFinanceiro\\SistemaFinanceiro-2023.02\\Backend\\SistemaFinanceiroBackEnd\\Entities\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
